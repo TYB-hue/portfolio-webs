@@ -1,9 +1,12 @@
 {
+  "homepage" : "http://TYB-hue.github.io/portfolio-webs",
   "name": "portfoliorr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "run npm build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
