@@ -1,9 +1,6 @@
 import { withSentryConfig } from '@sentry/nextjs';
 
 const nextConfig = {
-  // Ensure the target is set to 'serverless' for static exporting
-  target: 'serverless',
-
   // Your Next.js configuration options
   typescript: {
     ignoreBuildErrors: true,
