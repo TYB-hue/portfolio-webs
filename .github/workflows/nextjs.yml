@@ -21,14 +21,14 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '18.x'  # Update to a Node.js version >= v18.17.0
       
       - name: Install dependencies
         run: npm install
       
       - name: Build Next.js app
         run: npm run build
-      
+
       - name: Export built app
         run: npm run export
 
