@@ -1,11 +1,12 @@
-const { withSentryConfig } = require('@sentry/nextjs');
+import withSomePlugin from 'some-plugin'
 
-const nextConfig = {
-  // Your Next.js configuration options
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-};
+import { defineConfig } from 'next';
+
+export default defineConfig({
+  reactStrictMode: true,
+  // Add other Next.js configurations here
+});
+
 
 const SentryWebpackPluginOptions = {
   authToken: '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', // Replace with your actual Sentry auth token
