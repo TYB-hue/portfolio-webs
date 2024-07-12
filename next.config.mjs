@@ -1,12 +1,10 @@
-import withSomePlugin from 'some-plugin'
-
 import { defineConfig } from 'next';
+import withSentryConfig from '@sentry/nextjs';
 
-export default defineConfig({
+const nextConfig = defineConfig({
   reactStrictMode: true,
   // Add other Next.js configurations here
 });
-
 
 const SentryWebpackPluginOptions = {
   authToken: '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', // Replace with your actual Sentry auth token
@@ -19,4 +17,5 @@ const SentryWebpackPluginOptions = {
   automaticVercelMonitors: true,
 };
 
-module.exports = withSentryConfig(nextConfig, SentryWebpackPluginOptions);
+// Apply Sentry configuration to Next.js configuration
+export default withSentryConfig(nextConfig, SentryWebpackPluginOptions);
