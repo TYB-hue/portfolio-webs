@@ -1,13 +1,14 @@
 {
-  "homepage" : "http://TYB-hue.github.io/portfolio-webs",
+  "homepage": "http://TYB-hue.github.io/portfolio-webs",
   "name": "portfoliorr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "predeploy": "run npm build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",  // Assuming 'out' is your build directory
     "build": "next build",
+    "export": "next export",  // Add the export script for static export
     "start": "next start",
     "lint": "next lint"
   },
