@@ -4,6 +4,7 @@ const nextConfig = {
   // Your Next.js configuration options
   typescript: {
     ignoreBuildErrors: true,
+      output: 'export',
   },
 };
 
