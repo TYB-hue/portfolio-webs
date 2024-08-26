@@ -73,35 +73,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Gift cards ecommerse website",
+      des: "Explore the wonders of gift cards system with full functional website with deffirant payment methods using React." ,
+      img: "https://www.kindpng.com/picc/m/38-380335_amazon-gift-card-png-transparent-image-amazon-gift.png",
+     
+      link: "https://github.com/TYB-hue/Gift-Cards-Store",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      title: "Decimal to binery convertial",
+      des: "convert you decimal number to binary easly with this website.",
+      img: "https://wallpapers.com/images/hd/programming-binary-code-for-desktop-vaztoqgm71nh9hwq.jpg",
+      
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Guess the flag",
+      des: "test your world flags knowledge.",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj6yYLW08vPhC2fSxrRfhH8stxCdZgXP5OXw&s",
+
+      link: "https://github.com/TYB-hue/intro-to-quiz-game",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Platform game",
+      des: "Enjoy our amazing game and try to reach the check point.",
+      img: "https://images-rsg.storage.googleapis.com/wp-content/uploads/2023/11/Simplified-2D-gaming-background-with-a-retro-vibe-game-types-platformers-1024x585.jpg",
+     
+      link: "https://github.com/TYB-hue/Platform-Game",
     },
   ];
   
